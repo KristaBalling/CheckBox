@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.26" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/grandpaCheckBoxID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -30,11 +30,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox3"
+        app:layout_constraintTop_toBottomOf="@+id/dadCheckBoxID"
         app:layout_constraintVertical_bias="0.009" />
 
     <CheckBox
-        android:id="@+id/checkBox5"
+        android:id="@+id/momCheckBoxID"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:layout_marginBottom="8dp"
@@ -50,7 +50,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
-        android:id="@+id/checkBox3"
+        android:id="@+id/dadCheckBoxID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -62,11 +62,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.453"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox5"
+        app:layout_constraintTop_toBottomOf="@+id/momCheckBoxID"
         app:layout_constraintVertical_bias="0.003" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/showButtonID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -77,22 +77,21 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/grandpaCheckBoxID"
         app:layout_constraintVertical_bias="0.084" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/resultID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/showButtonID"
         app:layout_constraintVertical_bias="0.415" />
 
 </android.support.constraint.ConstraintLayout>
